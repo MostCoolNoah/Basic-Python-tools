@@ -1,0 +1,13 @@
+Birth_year = int(input("What year were you born?:  "))
+current_year = int(input("what year is it?:  "))
+BD = input("have you had your birth day yet?(Yes or No): ")
+if BD == "Yes" or BD == "yes":
+    age = current_year - Birth_year
+
+    print(age)
+elif BD == "No" or BD == "no":
+    age = current_year - Birth_year -1
+    print(age)
+
+else:
+    print("Just tell me dude.")

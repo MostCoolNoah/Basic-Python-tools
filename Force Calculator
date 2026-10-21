@@ -1,0 +1,42 @@
+m = input("Enter the mass in kg:  ")
+a = input("Enter the speed(acceleration) in m/s²:  ")
+F = input("Enter the Force in N(newtons):  ")
+
+if m == "":
+    if float(a) == 0:
+        print("Cannot divide by 0")
+
+    else:
+        a = float(a)
+        F = float(F)
+        m = F / a
+
+        print(m)
+        print(f"{F:.2f}N = {a:.2f}m/s² * {m:.2f}kg")
+elif a == "":
+    if float(m) == 0:
+        print("Cannot divide by 0")
+    else:
+        m = float(m)
+
+        F = float(F)
+
+        a = F / m
+        print(a)
+        print(f"{F:.2f}N = {a:.2f}m/s² * {m:.2f}kg")
+elif F =="":
+    a = float(a)
+    m = float(m)
+    F = a * m
+    print(F)
+    print(f"{F:.2f}N = {a:.2f}m/s² * {m:.2f}kg")
+else:
+
+    if float(F) == float(a) * float(m):
+        F = float(F)
+        a = float(a)
+        m = float(m)
+        print(f"{F:.2f}N = {a:.2f}m/s² * {m:.2f}kg")
+
+    else:
+        print("Incorrect.")

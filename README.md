@@ -1,4 +1,4 @@
-All of these are tools Ive made in python using Pycharm, 
+All of these are tools Ive made in Python using Pycharm, 
 if you are going to run them, 
 paste them in your python accepting IDE and RUN the code
 Any code that says SELF MADE, is made by me personally
